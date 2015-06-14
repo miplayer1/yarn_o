@@ -80,7 +80,23 @@ ul{
 	border-radius:50%;
 	
 	}
+.corps
+{
+	margin-top:5%;
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:rgba(255,255,255,0.4);
+}
 
+.apropos
+{
+	column-count:2;
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	padding:5px;
+	text-align:justify;
+	}
 
 
 
@@ -105,12 +121,23 @@ ul{
 }
 @media screen and (min-width: 600px) 
 {
-
+	
 	
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 1200px)
 {
-
+		.corps
+		{
+			width:90%;
+			margin:auto;
+		}
+		.apropos
+		{
+			column-count:1;
+			-moz-column-count:1;
+			-webkit-column-count:1;
+		
+		}
 }
 
  
