@@ -17,7 +17,7 @@
 				<p>Maï, créatrice de douceur, dans un monde de brutes...</p>
 				</div>
 				<div class="page">
-				<p><img class="logo"src="images/logomai2.png" alt="logo"/></p>
+				<p><img class="logo"src="images/logomai4.png" alt="logo"/></p>
 				</div>
 		
 			
