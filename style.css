@@ -58,24 +58,25 @@ ul{
 
 .devise
 {	
-
+	display:block;
+	background-color:rgba(140,140,140,0.7);
 	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align:center;
-	color:grey;
-	margin-top:75px;
-	margin-right:auto;
-	margin-left:auto;
+	color:gold;
+	margin: auto;
+	margin-top:140px;
 }
-.page
+.logo
 {
 	
-
-	width:275px;
-	height:275px;
-	background-color:rgba(0,0,0,0.4);
+	width:175px;
+	height:175px;
+	background-color:rgba(255,255,255,0.2);
 	margin-right:auto;
 	margin-left:auto;
-	margin-top:70px;
+	margin-top:0px;
 	
 	border-radius:50%;
 	

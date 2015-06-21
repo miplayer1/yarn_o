@@ -13,12 +13,14 @@
 				<?php
 				include 'menu.php'; 
 				?>
+			
+				<div class="logo">
+				<p><img src="images/logomaipetit.png" alt="logo"/></p>
+				</div>
 				<div class="devise">
-				<p>Maï, créatrice de douceur, dans un monde de brutes...</p>
+				<p><h2>Maï, créatrice de douceur, dans un monde brut...</h2></p>
 				</div>
-				<div class="page">
-				<p><img class="logo"src="images/logomai4.png" alt="logo"/></p>
-				</div>
+				
 		
 			
 	
