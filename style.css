@@ -98,12 +98,55 @@ ul{
 	padding:5px;
 	text-align:justify;
 	}
+/**galery**/
+.wrap
+{
+	text-align:center;
+	width:100%;
+	height:90%;
+	margin-bottom:100px;
+}
+.box
+{
+	
+	display:inline-block;
+	width:350px;
+	vertical-align:top;
+	padding:3%;
+	margin: 5%;
+	right:2%;
+	left:2%;
+	background-color:rgba(255,255,255,0.4);
+}
+figure.imagebox
+{
+	width:300px;
+	height:300px;
+	margin:auto;
+    filter : grayscale(100);
+    margin: 5px;
+    width: 300px; height: 300px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+figure.imagebox:hover
+{
+    animation-name: deBlur;
+    animation-duration: 1s;
+    animation-direction : normal;
+    animation-fill-mode: forwards;
+}
+}
+figcaption
+{
+	font-size:14px;
+	margin: 5px;
+}
+figcation a
+{
 
-
-
-
-
-
+}
 @keyframes deBlur {
     0%  {
     }
@@ -120,6 +163,9 @@ ul{
 
     }   
 }
+
+/**BEGIN media queries**/
+
 @media screen and (min-width: 600px) 
 {
 	
@@ -140,5 +186,5 @@ ul{
 		
 		}
 }
-
+/**END media queries**/
  
