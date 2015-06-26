@@ -111,6 +111,7 @@ ul{
 	
 	display:inline-block;
 	width:350px;
+	height:600px;
 	vertical-align:top;
 	padding:3%;
 	margin: 5%;
@@ -123,7 +124,7 @@ figure.imagebox
 	width:300px;
 	height:300px;
 	margin:auto;
-    filter : grayscale(100);
+   /**filter : grayscale(100);**/
     margin: 5px;
     width: 300px; height: 300px;
     overflow: hidden;
@@ -141,13 +142,33 @@ figure.imagebox:hover
 figcaption
 {
 	font-size:14px;
-	margin: 5px;
+	margin: 15px;
+	
 }
-figcation a
-{
 
+/**boutons**/
+.box a 
+{
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+	background-color:rgba(255,215,0,0.6);
+	text-align:center;
+	padding:10px;
+	margin:15px;
+	
 }
-@keyframes deBlur {
+.box a:focus
+{
+	color:black;
+}
+
+.box a:active, .box a:hover
+{
+	background-color:gold;
+}
+
+/**@keyframes deBlur {
     0%  {
     }
     100% {
@@ -163,7 +184,7 @@ figcation a
 
     }   
 }
-
+**/
 /**BEGIN media queries**/
 
 @media screen and (min-width: 600px) 
