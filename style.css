@@ -56,18 +56,7 @@ ul{
 	list-style-image : none;
 }
 
-.devise
-{	
-	display:block;
-	background-color:rgba(140,140,140,0.7);
-	width:100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align:center;
-	color:gold;
-	margin: auto;
-	margin-top:140px;
-}
+
 .logo
 {
 	
@@ -98,35 +87,34 @@ ul{
 	padding:5px;
 	text-align:justify;
 	}
-/**galery**/
+/**nav**/
 .wrap
 {
 	text-align:center;
 	width:100%;
 	height:90%;
 	margin-bottom:100px;
+	margin-top:5%;
 }
 .box
 {
-	
+	position:relative;
 	display:inline-block;
-	width:350px;
-	height:600px;
-	vertical-align:top;
-	padding:3%;
-	margin: 5%;
-	right:2%;
-	left:2%;
-	background-color:rgba(255,255,255,0.4);
-}
-figure.imagebox
-{
 	width:300px;
 	height:300px;
+	vertical-align:top;
+	
+	background-color:rgba(255,255,255,0.4);
+	
+	}
+
+/**figure.imagebox
+{
+	
 	margin:auto;
-   /**filter : grayscale(100);**/
-    margin: 5px;
-    width: 300px; height: 300px;
+    filter : grayscale(100);
+ 
+    width: 400px; height: 400px;
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
@@ -145,30 +133,32 @@ figcaption
 	margin: 15px;
 	
 }
+**/
+.nav p
+{
+	position:absolute;
+	bottom:0px;
+	right:5px;
+}
 
-/**boutons**/
-.box a 
+.nav a 
 {
 	text-decoration:none;
 	color:black;
 	display:inline-block;
-	background-color:rgba(255,215,0,0.6);
-	text-align:center;
-	padding:10px;
-	margin:15px;
-	
+		
 }
-.box a:focus
+.nav a:focus
 {
 	color:black;
 }
 
-.box a:active, .box a:hover
+.nav a:active, .nav a:hover
 {
-	background-color:gold;
+	background-color:rgba(255,215,0,0.6);
 }
 
-/**@keyframes deBlur {
+@keyframes deBlur {
     0%  {
     }
     100% {
@@ -184,7 +174,7 @@ figcaption
 
     }   
 }
-**/
+
 /**BEGIN media queries**/
 
 @media screen and (min-width: 600px) 

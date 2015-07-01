@@ -18,8 +18,24 @@
 				?>
 				
 				<div class="nav">
-					<ul>
-						
+					<div class="wrap">
+						<a href="apropos.php">
+							<section class ="box">
+								<p>A Propos</p>
+							</section>
+						</a>
+						<a href="apropos.php">
+							<section class ="box">
+								<p>Yarn bombing</p>
+							</section>
+						</a>
+						<a href="apropos.php">
+							<section class ="box">
+								<p>Contact</p>
+							</section>
+						</a>
+					</div>
+					
 				
 				</div>
 				
