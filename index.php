@@ -17,8 +17,10 @@
 				include 'logo.php';
 				?>
 				
-				<div class="devise">
-				<p><h2>Maï, créatrice de douceur, dans un monde brut...</h2></p>
+				<div class="nav">
+					<ul>
+						
+				
 				</div>
 				
 		

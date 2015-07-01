@@ -71,14 +71,14 @@ ul{
 .logo
 {
 	
-	width:175px;
-	height:175px;
-	background-color:rgba(255,255,255,0.2);
+	width:140px;
+	height:140px;
+	
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:0px;
 	
-	border-radius:50%;
+	border-radius:0%;
 	
 	}
 .corps
