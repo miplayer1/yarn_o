@@ -39,7 +39,7 @@ body {
 	vertical-align:bottom;
 	background-color:rgba(255,215,0,0.6);
 	position:fixed;
-	z-index:1;
+	z-index:2;
 	
 }
 li
@@ -134,6 +134,12 @@ figcaption
 	
 }
 **/
+ h1
+{
+	text-align:center;
+	color:gold;
+	font-size: x-large;
+}
 .nav h1
 {
 	position:absolute;
@@ -161,7 +167,7 @@ figcaption
 	background-color:rgba(255,215,0,0.6);
 }
 
-@keyframes deBlur {
+/**@keyframes deBlur {
     0%  {
     }
     100% {
@@ -177,9 +183,53 @@ figcaption
 
     }   
 }
+**/
 
+/**gallery**/
+.gallery
+{
+	margin-bottom:100px;
+}
+.gallery ul {
+  margin: 0;
+  font-size: 0;
+  padding: 0 171px;
+}
+.gallery li {
+  display: inline-block;
+  position: relative;
+  width: 329px;
+  height: 329px;
+  margin: 2px;
+ }
+.gallery li:hover {
+  z-index: 1;
+}
+.gallery li:hover img {
+  clip: rect(0px,500px,500px,0);
+  opacity: 1;
+}
+.gallery img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(0px,329px,329px,0);
+  transition: all .25s ease;
+  opacity: .75;
+}
 /**BEGIN media queries**/
-
+@media screen and (max-width: 1030px) {
+.gallery ul {
+    padding: 0;
+  }
+.gallery li {
+    width: auto;
+    height: auto;
+  }
+.gallery  img {
+    position: static;
+  }
+}
 @media screen and (min-width: 600px) 
 {
 	

@@ -10,43 +10,29 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 	<body>
-				<?php
-				include 'menu.php'; 
-				?>
-				
+		<?php
+		include 'menu.php'; 
+		?>
+		<h1>Réalisations #YarnBombing</h1>
+		<div class="gallery">   
+			<ul>
+				<li class="image-container"><img src="images/gallet_crochet.jpg" alt="image"/></li>  
+				<li class="image-container"><img src="images/projets_collaboratifs.jpg" alt="image"/></li>
+				<li class="image-container"><img src="images/yarn_bombing.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_13.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_14.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_15.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_16.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_17.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_18.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_36.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_34.jpg" alt="image"/></li>
+				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_35.jpg" alt="image"/></li>
+			</ul>
+		</div>  
+	</body>
 			
-				<div class="wrap">
-					<section class ="box">
-						<figure class="imagebox">
-							<img src="images/gallet_crochet.jpg" alt="gallet recouvert au crochet"/>
-						</figure>
-						<figcaption>Illuc ne equos velut per imitatae Sannione ut voragines ut quos equos familiarium spatia dicitur ait imitatae agmina quidem illuc subversasque opertis voluptatum praedatorios praetermitto Sannione agitant relicto relicto trahentes urbis tamquam ait longius imitatae enim per terga ut quos.
-						</figcaption>
-					</section>
-					<section class ="box">
-						<figure class="imagebox">
-							<img src="images/yarn_bombing.jpg" alt="decoration espace urbain avec de la laine"/>
-						</figure>
-						<figcaption>Illuc ne equos velut per imitatae Sannione ut voragines ut quos equos familiarium spatia dicitur ait imitatae agmina quidem illuc subversasque opertis voluptatum praedatorios praetermitto Sannione agitant relicto relicto trahentes urbis tamquam ait longius imitatae enim per terga ut quos.
-						</figcaption>
-					</section>
-					<section class ="box">
-						<figure class="imagebox">
-							<img src="images/projets_collaboratifs.jpg" alt="realisations a plusieurs"/>
-						</figure>
-						<figcaption>Illuc ne equos velut per imitatae Sannione ut voragines ut quos equos familiarium spatia dicitur ait imitatae agmina quidem illuc subversasque opertis voluptatum praedatorios praetermitto Sannione agitant relicto relicto trahentes urbis tamquam ait longius imitatae enim per terga ut quos.
-						<a href="#">En savoir plus</a>
-						</figcaption>
-					</section>
-					<section class ="box">
-						<figure class="imagebox">
-							<img src="images/autres_projets.jpg" alt="autres projets"/>
-						</figure>
-						<figcaption>Illuc ne equos velut per imitatae Sannione ut voragines ut quos equos familiarium spatia dicitur ait imitatae agmina quidem illuc subversasque opertis voluptatum praedatorios praetermitto Sannione agitant relicto relicto trahentes urbis tamquam ait longius imitatae enim per terga ut quos.
-						</figcaption>
-					</section>
-				</div>
-			
+		
 	
        
     </body>
