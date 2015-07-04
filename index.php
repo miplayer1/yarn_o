@@ -21,17 +21,17 @@
 					<div class="wrap">
 						<a href="apropos.php">
 							<section class ="box">
-								<p>A Propos</p>
+								<h1>A Propos</h1>
 							</section>
 						</a>
 						<a href="apropos.php">
 							<section class ="box">
-								<p>Yarn bombing</p>
+								<h1>Yarn bombing</h1>
 							</section>
 						</a>
 						<a href="apropos.php">
 							<section class ="box">
-								<p>Contact</p>
+								<h1>Contact</h1>
 							</section>
 						</a>
 					</div>

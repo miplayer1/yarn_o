@@ -87,7 +87,7 @@ ul{
 	padding:5px;
 	text-align:justify;
 	}
-/**nav**/
+/**nav home page**/
 .wrap
 {
 	text-align:center;
@@ -134,11 +134,14 @@ figcaption
 	
 }
 **/
-.nav p
+.nav h1
 {
 	position:absolute;
 	bottom:0px;
-	right:5px;
+	right:9px;
+	color:white;
+	font-size: large;
+	
 }
 
 .nav a 
