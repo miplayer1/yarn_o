@@ -13,8 +13,9 @@
 		<?php
 		include 'menu.php'; 
 		?>
-		<h1>Réalisations #YarnBombing</h1>
+		
 		<div class="gallery">   
+			<h1>Réalisations #YarnBombing</h1>
 			<ul>
 				<li class="image-container"><img src="images/gallet_crochet.jpg" alt="image"/></li>  
 				<li class="image-container"><img src="images/projets_collaboratifs.jpg" alt="image"/></li>
