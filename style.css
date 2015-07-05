@@ -25,10 +25,6 @@ body {
 	margin:0;
 	font-family:'aaarghnormal', arial, sans-serif;
 	
-	
-	
-
-  
 }
 
 .bandeau
@@ -55,8 +51,6 @@ ul{
 	text-align:center;
 	list-style-image : none;
 }
-
-
 .logo
 {	
 	width:140px;
@@ -68,9 +62,11 @@ ul{
 {
 	margin-top:5%;
 	width:50%;
+	height:90%;
 	margin-right:auto;
 	margin-left:auto;
-	background-color:rgba(255,255,255,0.4);
+	background-color:rgba(255,255,255,0.6);
+	margin-bottom:100px;
 }
 
 .apropos
@@ -80,6 +76,7 @@ ul{
 	-webkit-column-count:2;
 	padding:5px;
 	text-align:justify;
+	padding:5%;
 	}
 /**nav home page**/
 .wrap
@@ -100,37 +97,18 @@ ul{
 	background-color:rgba(255,255,255,0.4);
 }
 
-/**figure.imagebox
-{
-	
-	margin:auto;
-    filter : grayscale(100);
- 
-    width: 400px; height: 400px;
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: top;
-}
-figure.imagebox:hover
-{
-    animation-name: deBlur;
-    animation-duration: 1s;
-    animation-direction : normal;
-    animation-fill-mode: forwards;
-}
-}
-figcaption
-{
-	font-size:14px;
-	margin: 15px;
-	
-}
-**/
  h1
 {
 	text-align:center;
 	color:gold;
 	font-size: x-large;
+}
+h2
+{
+	font-size:small;
+	-webkit -column-span:all;
+	-moz -column-span:all;
+	column-span:all;
 }
 .nav h1
 {
@@ -176,11 +154,14 @@ figcaption
  }
 .gallery li:hover {
   z-index: 1;
+ 
 }
 .gallery li:hover img {
   clip: rect(0px,500px,500px,0);
   opacity: 1;
+ 
 }
+
 .gallery img {
   position: absolute;
   top: 0;
@@ -189,6 +170,9 @@ figcaption
   transition: all .25s ease;
   opacity: .60;
 }
+
+
+
 /**BEGIN media queries**/
 @media screen and (max-width: 1030px) {
 .gallery ul {
@@ -200,25 +184,28 @@ figcaption
   }
 .gallery  img {
     position: static;
+	
   }
 }
-@media screen and (min-width: 600px) 
+@media screen and (max-width:900px)
 {
-	
-	
-}
-@media screen and (max-width: 1200px)
-{
-		.corps
+	.corps
 		{
 			width:90%;
 			margin:auto;
+			margin-bottom:100px;
 		}
+}
+
+@media screen and (max-width: 1200px)
+{
+		
 		.apropos
 		{
 			column-count:1;
 			-moz-column-count:1;
 			-webkit-column-count:1;
+			text-align:justify;
 		
 		}
 }

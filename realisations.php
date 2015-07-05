@@ -17,24 +17,23 @@
 		<div class="gallery">   
 			<h1>Réalisations #YarnBombing</h1>
 			<ul>
-				<li class="image-container"><img src="images/gallet_crochet.jpg" alt="image"/></li>  
-				<li class="image-container"><img src="images/projets_collaboratifs.jpg" alt="image"/></li>
-				<li class="image-container"><img src="images/yarn_bombing.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_13.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_14.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_15.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_16.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_17.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_18.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_36.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_34.jpg" alt="image"/></li>
-				<li class="image-container"><img src="http://www.photo-libre.fr/nature/Med/Rz_35.jpg" alt="image"/></li>
+				
+				<li class="image-container"><img src="images/yarn_bombing.jpg" title="Hossegor, 2015" alt="image"/></li>
+				<li class="image-container"><img src="images/banc.jpg" title="La Ciotat, 2014" alt="recouvrement de mobilier urbain"/></li>
+				<li class="image-container"><img src="images/bird_stmax.jpg" title="St Maximin, 2015" alt="ouvrage crocheté accroché à un arbre"/></li>
+				<li class="image-container"><img src="images/bird_biarritz.jpg" title="Biarritz, 2015" alt="ouvrage crocheté accroché à un arbre"/></li>
+				<li class="image-container"><img src="images/galets_couleur.jpg" title="La Ciotat, 2014" alt="Galets recouverts de laine déposés au pied d'un arbre"/></li>
+				<li class="image-container"><img src="images/bird_stjeandeluz.jpg" title="St Jean de Luz, 2015" alt="ouvrage crocheté accroché à un arbre"/></li>
+				<li class="image-container"><img src="images/poisson.jpg" title="Oeuvre collaborative | La Ciotat, 2014" alt="carrés de tricot assemblés"/></li>
+				<li class="image-container"><img src="images/cap_breton.jpg" title="Cap Breton, 2015" alt="ouvrage crocheté accroché à un arbre"/></li>
+				<li class="image-container"><img src="images/tressage.jpg" title="tressage d'alpaga" alt="image"/></li>
+				<li class="image-container"><img src="images/galet_raye.jpg" title="galet recouvert d'alpaga" alt="image"/></li>
+				<li class="image-container"><img src="images/galet_crochet.jpg" title="Galet recouverts de fil de lin" alt="image"/></li>
+				<li class="image-container"><img src="images/projets_collaboratifs.jpg" title="Oeuvre collaborative | La Ciotat, 2014" alt="image"/></li>
+				<li class="image-container"><img src="" alt="image"/></li>
+				<li class="image-container"><img src="" alt="image"/></li>
 			</ul>
 		</div>  
 	</body>
-			
-		
-	
-       
-    </body>
+
 </html>

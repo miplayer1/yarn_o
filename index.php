@@ -29,7 +29,7 @@
 								<h1>Yarn bombing</h1>
 							</section>
 						</a>
-						<a href="apropos.php">
+						<a href="contact.php">
 							<section class ="box">
 								<h1>Contact</h1>
 							</section>
