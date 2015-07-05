@@ -29,7 +29,7 @@
 				<li class="image-container"><img src="images/tressage.jpg" title="tressage d'alpaga" alt="image"/></li>
 				<li class="image-container"><img src="images/galet_raye.jpg" title="galet recouvert d'alpaga" alt="image"/></li>
 				<li class="image-container"><img src="images/galet_crochet.jpg" title="Galet recouverts de fil de lin" alt="image"/></li>
-				<li class="image-container"><img src="images/projets_collaboratifs.jpg" title="Oeuvre collaborative | La Ciotat, 2014" alt="image"/></li>
+				<li class="image-container"><img src="images/projets_collaboratifs.jpg" title="Naissance d'une oeuvre collaborative | La Ciotat, 2014" alt="image"/></li>
 				<li class="image-container"><img src="" alt="image"/></li>
 				<li class="image-container"><img src="" alt="image"/></li>
 			</ul>
