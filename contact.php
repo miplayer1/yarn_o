@@ -16,6 +16,11 @@
 				<?php 
 				include 'logo.php';
 				?>
-				
+		<section class="contact">
+			<address class="adress">Yarn Over
+				<a href="mailto:player_1@yarnover.xyz">Contact</a>
+			</address>
+			
+		</section>
 	</body>
 </html>

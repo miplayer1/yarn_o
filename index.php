@@ -8,6 +8,7 @@
 		<![endif]-->
         <title>Yarn Over</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="p:domain_verify" content="1fcd0d9b9fef140761c2997b55c2d970"/>
     </head>
 	<body>
 				<?php

@@ -186,7 +186,15 @@ h2
   opacity: .60;
 }
 
-
+section.contact {
+	margin-top:100px;
+	width:50%;
+	height:90%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:rgba(255,255,255,0.6);
+	margin-bottom:100px;
+}
 
 /**BEGIN media queries**/
 @media screen and (max-width: 1030px) {
