@@ -6,7 +6,7 @@
 		<!--[if lt IE 9]>
 		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
 		<![endif]-->
-        <title>Yarn Over</title>
+        <title>yarnbombing en action - tricot et crochet dans l'espace urbain | Yarn Over</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 	<body>
@@ -14,6 +14,8 @@
 		include 'menu.php'; 
 		?>
 		
+		<!-- Please call pinit.js only once per page -->
+		<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 		<div class="gallery">   
 			<h1>Réalisations #YarnBombing</h1>
 			<ul>
@@ -30,10 +32,13 @@
 				<li class="image-container"><img src="images/galet_raye.jpg" title="galet recouvert d'alpaga" alt="image"/></li>
 				<li class="image-container"><img src="images/galet_crochet.jpg" title="Galet recouverts de fil de lin" alt="image"/></li>
 				<li class="image-container"><img src="images/projets_collaboratifs.jpg" title="Naissance d'une oeuvre collaborative | La Ciotat, 2014" alt="image"/></li>
-				<li class="image-container"><img src="" alt="image"/></li>
-				<li class="image-container"><img src="" alt="image"/></li>
+
 			</ul>
-		</div>  
+		</div>
+		<div class="action"><a class="boutons" href="contact.php">Contact</a></div>
+		<?php 
+			include 'js/stats.js';
+		?>
 	</body>
 
 </html>

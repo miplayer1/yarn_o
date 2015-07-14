@@ -6,7 +6,7 @@
 		<!--[if lt IE 9]>
 		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
 		<![endif]-->
-        <title>Yarn Over</title>
+        <title>le tricot et la laine - elements de contre-culture et culture urbaine | yarn over</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 	<body>
@@ -30,6 +30,8 @@
 				
 			</article>
 		</section>
-		
+			<?php 
+			include 'js/stats.js';
+			?>	
     </body>
 </html>

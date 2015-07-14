@@ -6,7 +6,7 @@
 		<!--[if lt IE 9]>
 		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
 		<![endif]-->
-        <title>Yarn Over</title>
+        <title> yarn Over | creation de douceur dans un monde brut </title>
         <link rel="stylesheet" type="text/css" href="style.css">
 		<meta name="p:domain_verify" content="1fcd0d9b9fef140761c2997b55c2d970"/>
     </head>
@@ -39,10 +39,9 @@
 					
 				
 				</div>
-				
-		
-			
-	
-       
+			<?php 
+				include 'js/stats.js';
+			?>
+				       
     </body>
 </html>
