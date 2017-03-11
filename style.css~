@@ -234,8 +234,6 @@ h2
 }
 .contact p{
 	padding:20px;}
-.contact h3{
-	padding:20px;}
 
 /**BEGIN media queries**/
 @media screen and (max-width: 1030px) {

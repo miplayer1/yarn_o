@@ -8,9 +8,6 @@
 		<![endif]-->
         <title>le tricot et la laine - elements de contre-culture et culture urbaine | yarn over</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <?php 
-			include 'js/stats.js';
-		?>
     </head>
 	<body>
 		<?php
@@ -34,6 +31,8 @@
 				
 			</article>
 		</section>
-			
+			<?php 
+			include 'js/stats.js';
+			?>	
     </body>
 </html>
