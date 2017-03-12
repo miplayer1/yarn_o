@@ -7,19 +7,7 @@
   |_____| |_____|   \__/    |______|
    **/-->
 <html>
-    <head>
-        <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width"/>
-		<!--[if lt IE 9]>
-		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
-		<![endif]-->
-        <title> yarn Over | creation de douceur dans un monde brut </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-		<meta name="p:domain_verify" content="1fcd0d9b9fef140761c2997b55c2d970"/>
-		<?php 
-			include 'js/stats.js';
-		?>
-    </head>
+    <?php include 'head.php';?>
 	<body>
 				<?php
 				include 'menu.php'; 

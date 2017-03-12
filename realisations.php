@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width"/>
-		<!--[if lt IE 9]>
-		<script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
-		<![endif]-->
-        <title>yarnbombing en action - tricot et crochet dans l'espace urbain | Yarn Over</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <?php 
-			include 'js/stats.js';
-		?>
-    </head>
+      <?php include 'head.php';?>
 	<body>
 		<?php
 		include 'menu.php'; 
